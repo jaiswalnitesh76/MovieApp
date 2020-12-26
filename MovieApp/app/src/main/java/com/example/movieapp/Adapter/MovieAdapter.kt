@@ -11,6 +11,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.constraintlayout.solver.widgets.ConstraintWidget.VISIBLE
 import androidx.recyclerview.widget.RecyclerView
+import com.example.movieapp.Model.MovieImage
 import com.example.movieapp.Model.MovieModelX
 import com.example.movieapp.Model.ResultX
 
@@ -32,6 +33,7 @@ class MovieAdapter(private val arrList: Array<ResultX>) : RecyclerView.Adapter<C
     override fun onBindViewHolder(holder: CustomViewHolder, position: Int)
     {
         val current_movie : ResultX = arrList[position]
+
 
         holder.item_title.text = "Movie Name: "+current_movie.title
         holder.item_release_date.text = "Release: " +current_movie.release_date

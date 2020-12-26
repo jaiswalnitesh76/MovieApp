@@ -3,6 +3,7 @@ package com.example.movieapp.Presenter
 import android.content.Context
 import android.util.Log
 import com.example.movieapp.Interface.CommonResponseListener
+import com.example.movieapp.Model.MovieImage
 import com.example.movieapp.Model.MovieModelX
 import com.example.movieapp.Model.ResultX
 import com.example.movieapp.Network.NetworkAccessor
